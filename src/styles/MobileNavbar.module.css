@@ -1,8 +1,8 @@
 .mobilenavbar {
-  position: absolute;
+  position: fixed;
         background-color: #fff;
         background-image: url(/public/AssestImage/Navbarmobile/textureBg\ \(1\).jpg);
-        left: 0;
+        left: -100%;
         top: 0px;
         height: 100vh;
         align-items: flex-start;
@@ -10,9 +10,12 @@
         justify-content: flex-start;
         flex-direction: column;
         left: -100%;
-        transition: all .3s;
+        transition: all .3s ease-in-out;
         z-index: 99;
        
+}
+.mobilenavbar.activenav{
+  left: 0px;
 }
 .mobilenavbar.activenav{
   left: 0%;

@@ -25,15 +25,18 @@ const MobileNavbar2 = () => {
     setcolorselect(item);
   }
   return (
-    <div className={styles.mobilenavbar}>
-      <div className={styles.img}>
+    <div className={`${styles.mobilenavbar} ${styles.open} `}>
+      {/* <div className={styles.img}>
       <img src="/AssestImage/Navbarmobile2/WhatsApp Image 2024-10-30 at 9.12.51 PM.jpeg" alt="" />
-      </div>
-      <div className={styles.wrapper}>
+      </div> */}
+   
       <div className={styles.navbar}>
         <div className={styles.menu} onClick={handlemenu}>
-      {menubar ?  <MobileNavbar/> :   <CiMenuFries />}
+      {menubar ?  <CiMenuFries /> :   <CiMenuFries />}
         </div>
+        {menubar && (
+          <div className="div" onClick={handlemenu} > <MobileNavbar  /></div>
+        )}
         <div className={styles.third}>
       <div className={styles.phone}>
       <FaPhoneAlt  />
@@ -56,7 +59,7 @@ const MobileNavbar2 = () => {
       </div>
       </div>
       </div>
-    </div>
+    
   )
 }
 

@@ -1,3 +1,4 @@
+
 *{
   padding: 0px;
   margin: 0px;
@@ -8,6 +9,8 @@
 body{
   font-family: Lato, sans-serif;
   font-family: Lato, sans-serif;
+  font-family: Arial, sans-serif;
+ 
 /* Customize scrollbar for Webkit browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
   width: 10px; /* Width of the scrollbar */

@@ -1,32 +1,34 @@
+
 .mobilenavbar {
   display: none;
- 
+  background-image: url("../../public/AssestImage/Navbarmobile2/navbarmobile3.jpeg");
+  
+  background-size: cover;
+ height: 50px;
  
 }
 
 .mobilenavbar img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-.mobilenavbar .wrapper {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  transform: translateY(-50%);
-}
+
+
 
 .mobilenavbar .navbar {
   
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem;
+  
   align-items: center;
 }
 
 .mobilenavbar .menu {
   font-size: 1.5rem;
   cursor: pointer;
+  padding: 10px;
 }
 
 .mobilenavbar .navbar .phone {
@@ -76,10 +78,16 @@
 
 @media only screen and (max-width: 729px) {
   .mobilenavbar {
+   
     display: block;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
   .mobilenavbar .navbar{
     padding: 0px 25px;
+    position: relative;
+   
+
   }
 }

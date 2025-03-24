@@ -48,14 +48,14 @@ const Navbar = () => {
           <li><Link to="/about_us"className={colorselect==='About Us' ? styles.active :''}  onClick={()=>handleclick('About us')} >About Us</Link></li>
           <li><Link to="/ourservice"className={colorselect==='Our Services' ? styles.active :''} onClick={()=>handleclick('Our Services')} >Our Services</Link></li>
           <li><a href=""className={colorselect==='Properties' ? styles.active :''} onClick={()=>handleclick('Properties')} >Properties</a></li>
-          <li><a href=""className={colorselect==='Contact Us' ? styles.active :''} onClick={()=>handleclick('Contact Us')} >Contact Us</a></li>
+          <li><a href="https://wa.me/03054372019"className={colorselect==='Contact Us' ? styles.active :''} onClick={()=>handleclick('Contact Us')} >Contact Us</a></li>
         </ul>
       </div>
         )}
       <div className={styles.third}>
       <div className={styles.phone}>
-      <FaPhoneAlt  />
-        <p>+92 315 666 4441</p>
+      <a href="https://wa.me/03054372019"><FaPhoneAlt  />
+        <p>+92 315 666 4441</p></a>
       </div>
       <div className={styles.language}>
     
