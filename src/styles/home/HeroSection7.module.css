@@ -1,0 +1,243 @@
+.background{
+  background-color: #f9f7f8;
+ 
+
+
+}
+.herosection{
+padding: 50px 0px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+.herosection .body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+}
+.herosection .logo{
+  justify-content: center;
+  display: flex;
+  gap: 7px;
+  width: 80px;
+ 
+}
+.herosection .logo img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.herosection .body p{
+  font-size: 2.4rem;
+    font-weight: 300;
+
+}
+
+.herosection h3 span{
+  color: #bf8f00;
+}
+.herosection hr{
+  background-color: #4c4c4c8f;
+    height: .5px;
+    border: 1px solid #f5f5f52d;
+   
+}
+.herosection .sectionwrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+.herosection .leftsection{
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 14px;
+  width: 50%;
+
+}
+.herosection .leftsection .number{
+  display: flex;
+  flex-direction: column;
+  
+ 
+  gap: 15px;
+}
+.herosection .leftsection .wrap{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+  
+}
+.herosection .leftsection .one{
+ 
+  width: 25px;
+  height: 25px;
+  background-color: #bf8f00;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.herosection .leftsection .one h1{
+  font-size: 16px;
+  
+}
+.herosection .leftsection p{
+  color: #777;
+}
+.herosection .leftsection .btn{
+  position: absolute;
+    bottom:-100px;
+    display: flex;
+    gap: 1rem;
+    left: 20px;
+  
+  
+
+}
+.herosection .leftsection button{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #bf8f00;
+  outline: none;
+  padding: 10px 1.2rem;
+  cursor: pointer;
+}
+.herosection .leftsection  .btn svg{
+  color: #bf8f00;
+  font-size: 20px;
+}
+.herosection .sectionwrapper>div{
+  flex: 1;
+}
+.herosection .rightsection .img{
+  width: 100%;
+  height: 100%;
+}
+
+.herosection .rightsection img{
+  width: 100%;
+  height: 100%;
+ object-fit: cover;
+border-radius: 0px 20px 20px 0px;
+
+}
+
+
+@media only screen and (max-width: 1309px) {
+  
+
+.herosection .leftsection .btn{
+  position: absolute;
+  bottom:-60px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+
+}
+}
+
+@media only screen and (max-width: 1225px) {
+  
+  
+  .herosection .sectionwrapper{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+  
+  }
+  .herosection .leftsection p{
+    font-size: 13px;
+    color: #777;
+  }
+  .herosection .leftsection button{
+    
+     font-size: 12px;
+    
+    padding: 10px 1.2rem;
+   
+  }
+  .herosection .leftsection  .btn svg{
+    color: #bf8f00;
+    
+    font-size: 14px;
+  }
+  
+  }
+
+
+  @media only screen and (max-width: 960px) {
+    .herosection .sectionwrapper{
+     
+     flex-direction: column;
+     gap: 100px;
+      
+    }
+    .herosection .leftsection {
+ 
+      
+      flex-direction: column;
+  
+      width: 100%;
+    
+    }
+    .herosection .leftsection .wrapsection{
+      display: flex;
+    }
+    .herosection .leftsection .one h1{
+      display: none;
+      
+    }
+    .herosection .leftsection .one{
+ 
+      width: 10px;
+      height: 10px;
+     
+    
+    }
+    .herosection .leftsection button{
+     
+      gap: 10px;
+      border-radius: 20px;
+      border: 1px solid #bf8f00;
+      outline: none;
+      padding: 10px 1.2rem;
+      cursor: pointer;
+    }
+    .herosection .rightsection {
+      width: 100%;
+    }
+   
+    .herosection .leftsection .text{
+      display: none;
+    }
+    .herosection .body p{
+      font-size: 4vw;
+        font-weight: 300;
+    
+    }
+    .herosection .logo{
+     
+      width: 60px;
+     
+    }
+   
+  }
+
+  

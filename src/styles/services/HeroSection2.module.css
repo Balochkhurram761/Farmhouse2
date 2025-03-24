@@ -1,0 +1,52 @@
+.herosection{
+  background-image: url(/public/AssestImage/Services/herosection2/textureBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    text-align: center;
+}
+.herosection h4 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  
+}
+.herosection h4 span{
+  font-weight: 700;
+  color: #bf8f00; 
+}
+.herosection .cards {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+.herosection .card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #fff;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    text-align: center;
+    padding: 2rem 4rem;
+    transition: all .3s;
+}
+.herosection hr{
+  
+  width: 30%;
+}
+.herosection .card p{
+ 
+    line-height: 1.5;
+    font-size: 1rem;
+    position: relative;
+    color: #666;
+}
+.herosection .img {
+  position: absolute;
+  bottom: 10px;
+  right: 16px;
+}

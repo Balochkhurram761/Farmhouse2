@@ -1,0 +1,157 @@
+.herosection{
+  position: relative;
+ 
+}
+.herosection img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.herosection .overlay{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background: linear-gradient(#bf8f00 5%, rgba(6, 6, 12, .9) 10%);
+    background: #bf8f00;
+    background: linear-gradient(180deg, rgba(191, 143, 0, .454) 15%, rgba(0, 0, 0, .763) 52%);
+}
+.herosection .herobody{
+  position: absolute;
+    bottom: 15%;
+    left: 48%;
+    transform: translateX(-50%);
+   display: flex;
+   flex-direction: column;
+    
+   gap: 14px;
+    width: 90%;
+}
+.herosection .herobody .imge{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.herosection .herobody  .imge img{
+  width: 80px;
+}
+.herosection .herobody .body {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+}
+.herosection .herobody .body h1{
+  font-size: 3.3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  text-transform: uppercase;
+  font-weight: 700; 
+  font-family: Oswald, sans-serif;
+  letter-spacing: 1.1px;
+ line-height: 50px;
+  color: #bf8f00;
+}
+.herosection .herobody .body h1 span{
+  font-family: Barlow Semi Condensed, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    color: #cdcdcd;
+}
+.herosection .herobody .body p{
+  font-size: 21px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    letter-spacing: 1.01px;
+}
+.herosection .herobody .body button{
+  padding: 14px 25px ;
+  border-radius: 20px;
+  background-color: #bf8f00;
+  border: none;
+  outline: none;
+
+}
+.herosection .herobody .body button a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+ 
+
+
+  
+}
+.herosection .secondimage{
+  display: none;
+}
+@media only screen and (max-width: 885px) {
+  .herosection .herobody{
+    
+      bottom: 7%;
+      left: 48%;
+      
+  }
+  .herosection .herobody  .imge img{
+    width: 60px;
+  }
+  .herosection .herobody .body h1{
+    font-size: 2.7rem;
+    
+  }
+  .herosection .herobody .body p{
+    font-size: 17px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+      letter-spacing: 1.01px;
+  }
+  
+}
+
+@media only screen and (max-width: 885px) {
+.herosection .firstimage{
+  display: none;
+}
+.herosection .secondimage{
+  display: block;
+}
+.herosection .herobody{
+    
+  bottom: 24%;
+  left: 53%;
+  
+}
+
+
+}
+
+@media only screen and (max-width: 441px) {
+  .herosection .firstimage{
+    display: none;
+  }
+  .herosection .secondimage{
+    display: block;
+  }
+  .herosection .herobody{
+      
+    bottom: 8%;
+    left: 50%;
+    
+
+
+  }
+  .herosection .herobody .body h1{
+    font-size: 2rem;
+    line-height: 35px;
+    
+  }
+  .herosection .herobody .body p{
+    font-size: 14px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+      letter-spacing: 1.01px;
+  }
+  
+  
+  }

@@ -1,0 +1,239 @@
+.section3{
+  width: 80%;
+  margin: 0 auto;
+}
+.footer{
+  display: block;
+    background-image: url(/public/AssestImage/Footer/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+   
+    
+ 
+}
+.footer_container{
+  padding: 50px 0px;
+  display: flex;
+  gap: 40px;
+}
+.footer .footer1{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 50px 0px;
+}
+.footer .footer1 .heading{
+  display: flex;
+  
+  flex-direction: column;
+  gap: 10px;
+ }
+.footer .footer1 .heading h1{
+  font-size: 2rem;
+    font-family: Playfair Display, serif;
+    color: #bf8f00;
+}
+
+.footer .footer1 .heading p{
+ 
+  font-size: 1.2rem;
+    letter-spacing: 1.1px;
+    font-weight: 500
+}
+.footer .footer1 .btn{
+  display: flex;
+}
+.footer .footer1 .btn input{
+  width: 400px;
+    height: 50px;
+    padding-left: 1rem;
+    border: none;
+}
+.footer .footer1 .btn button{
+  height: 50px;
+    padding: 0 3rem;
+    background-color: #d49823;
+    color: #fff;
+    border: none;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .3s;
+}
+.footer hr{
+  border: 1px solid #f5f5f52d;
+    margin: 30px 0;
+}
+
+.footer .footer2{
+  padding: 60px 0px;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+}
+.footer .footer2 img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.footer .footer2 .img{
+  width: 150px;
+}
+.footer .footer2 .footer_link {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 1rem;
+}
+.footer .footer2 .footer_link h3{
+  color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-family: Playfair Display, serif;
+    color: #bf8f00;
+    font-size: 1.3rem;
+}
+.footer .footer2 .footer_link  ul {
+  display: flex;
+  flex-direction: column;
+ gap: 9px;
+ 
+  list-style-type: none;
+
+}
+.footer .footer2 .footer_link ul li a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #f5f5f59f;
+    font-size: 1.1rem;
+    transition: all .3s;
+}
+.footer .footer2 .footerlink {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer2 .footerlink h3{
+  color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-family: Playfair Display, serif;
+    color: #bf8f00;
+    font-size: 1.3rem;
+}
+.footer .footer2  .footerlink p{
+  color: #f5f5f59f;
+}
+.footer .footer2 .footerlink p a {
+  color: #f5f5f59f;
+  text-decoration:none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer .footer2 .social_link {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.footer .footer2 .social_link p a {
+  color: #f5f5f59f;
+  text-transform: none;
+}
+.footer .footer3 p{
+  padding: 40px 0px;
+  color: #f5f5f59f;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 1309px) {
+  .section3{
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (max-width: 1152px) {
+  .section3{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .footer .footer1 .btn input{
+    width: 350px;
+     
+  }
+  
+}
+
+@media only screen and (max-width: 1059px) {
+  .section3{
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  .footer .footer1 .btn input{
+    width: 300px;
+     
+  }
+  .footer .footer1 .heading h1{
+    font-size: 1.7rem;
+      
+  }
+  
+  .footer .footer1 .heading p{
+   
+    font-size: 1.1rem;
+     
+  }
+  
+}
+
+@media only screen and (max-width: 952px) {
+  .section3{
+   width: 95%;
+  }
+  .footer .footer1{
+   align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+  }
+  .footer .footer1 .btn{
+   width: 100%;
+  }
+  .footer .footer1 .btn input{
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 829px) {
+  .footer .footer2{
+    padding: 20px 0px;
+  grid-row-gap: 20px;
+   grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .footer .footer2{
+  
+   grid-template-columns: repeat(1,1fr);
+  }
+  .footer .footer2 .footer_link h3{
+    color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      font-family: Playfair Display, serif;
+      color: #bf8f00;
+      font-size: 1.3rem;
+  }
+  .footer .footer1 .heading p{
+ 
+    font-size: 0.89rem;
+      
+  }
+}

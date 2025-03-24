@@ -1,0 +1,145 @@
+.herosection{
+padding: 50px 0px;
+}
+.herosection h1{
+  font-size: 2rem;
+}
+.herosection h1 span{
+  font-weight: 700;
+  color: #bf8f00;
+}
+.herosection .wrapper{
+  margin-top: 3rem; ;
+  display: flex;
+  gap: 30px;
+}
+.herosection .wrapper .img{
+  width: 350px;
+  height: 350px;
+  
+}
+.herosection .wrapper img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.herosection .wrapper .leftsection{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  
+
+}
+.herosection .wrapper .leftsection .body{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 25px;
+    padding: 1.1rem 1.5rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+    cursor: pointer;
+    transition: box-shadow border all .3s ease-in-out;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+.herosection .wrapper .leftsection .body:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.herosection .wrapper .leftsection .active{
+  border: 1px solid #bf8f00;
+}
+
+.herosection .wrapper .leftsection h3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+  
+    
+}
+.herosection .wrapper .leftsection .heading{
+  color: #bf8f00;
+}
+.herosection .wrapper .leftsection p{
+  color: #333;
+    font-size: 14px;
+}
+
+.herosection .wrapper .rightsection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.88rem;
+  
+}
+.herosection .wrapper .rightsection h3{
+  font-weight: 500;
+}
+.herosection .wrapper .rightsection  button{
+ 
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #bf8f00;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s;
+}
+.herosection .wrapper .rightsection button:hover {
+  background-color: #a67700;
+  
+}
+@media only screen and (max-width: 1253px) {
+  .herosection .wrapper .leftsection h3{
+    
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+  }
+  .herosection .wrapper .img{
+    width: 300px;
+    height: 300px;
+    
+  }
+}
+
+@media only screen and (max-width: 949px) {
+  .herosection .wrapper{
+    flex-direction: column;
+  }
+  .herosection .wrapper .leftsection{
+    width: 100%;
+  }
+  .herosection .wrapper .img{
+    width: 350px;
+    height: 350px;
+    
+  }
+}
+
+@media only screen and (max-width: 647px) {
+
+  .herosection h1{
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  .herosection .wrapper .img{
+    width: 280px;
+    height: 280px;
+    
+  }
+  
+}
