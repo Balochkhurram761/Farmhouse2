@@ -70,3 +70,27 @@
 }
 
 
+@media only screen and (max-width: 540px) {
+  .mobilenavbar {
+    width: 400px;
+         
+       
+        
+         
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .mobilenavbar {
+    width: 300px;
+         
+       
+        
+         
+  }
+  .mobilenavbar ul li .menuItem a {
+  
+    font-size: 1.4rem;
+   
+  }
+}
